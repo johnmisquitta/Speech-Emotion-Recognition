@@ -5,7 +5,7 @@
 Our project involves developing a system that processes video inputs to detect emotions based on audio content. By utilizing Convolutional Neural Networks (CNNs), the system analyzes audio tracks extracted from videos to classify and interpret various emotional states. The CNN model is trained to recognize distinct audio features associated with different emotions, enabling accurate detection of emotions such as happiness, sadness, anger, and surprise
 
 ## 🎥 Watch Video
-[![Watch the video](images/emotion_1_play.png)](https://drive.google.com/drive/u/0/folders/1RM5AV4OvoYzStK8QC5svQgR9nc6KWhwD)
+[![Watch the video](images/emotion_1_play.png)](https://drive.google.com/file/d/1jlgvv4vs7lF1YOLK26_vvy15Zr51M_y1/view?usp=drive_link)
 
 ## ✨ Features
 
@@ -18,8 +18,8 @@ To set up and run the **Speech Emotion Recognition** system, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/SPEECH-EMOTION-RECOGNITION.git
-    cd SPEECH-EMOTION-RECOGNITION
+    git clone https://github.com/yourusername/Speech-Emotion-Recognition.git
+    cd Speech-Emotion-Recognition
     ```
 
 2. **Install dependencies:**
@@ -56,19 +56,14 @@ Once the system is running, you can interact with it through the web interface o
 - **Upload an Audio Clip:**
   - Endpoint: `POST /fastapi/upload`
   - Description: Upload an audio file to be analyzed for emotion detection.
-  ![Upload Image](images/upload.png)
+  ![Upload Image](images/emotion_1.png)
 
 - **View Detected Emotions:**
   - Endpoint: `GET /api/results`
   - Description: Retrieve the emotions detected from the uploaded audio clip.
-  ![Results Image](images/results.png)
+  ![Results Image](images/emotion_2.png)
 
 - **Live Audio Input:**
   - Description: Use the microphone icon on the web interface to start live analysis of audio input.
-  ![Live Analysis Image](images/live_analysis.png)
+  ![Live Analysis Image](images/emotion_3.png)
 
-### Dataset Preparation
-
-- **Data Preprocessing:**
-  ```bash
-  python preprocess_data.py --input data/raw --output data/processed
