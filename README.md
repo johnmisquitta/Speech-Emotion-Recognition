@@ -54,12 +54,12 @@ Once the system is running, you can interact with it through the web interface o
 ### Real-time Emotion Detection
 
 - **Upload an Audio Clip:**
-  - Endpoint: `POST /fastapi/upload`
+  - Endpoint: `POST /localhost/upload`
   - Description: Upload an audio file to be analyzed for emotion detection.
   ![Upload Image](images/emotion_1.png)
 
 - **View Detected Emotions:**
-  - Endpoint: `GET /api/results`
+  - Endpoint: `GET http://localhost:8000/predict`
   - Description: Retrieve the emotions detected from the uploaded audio clip.
   ![Results Image](images/emotion_2.png)
 
