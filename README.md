@@ -5,7 +5,7 @@
 Our project involves developing a system that processes video inputs to detect emotions based on audio content. By utilizing Convolutional Neural Networks (CNNs), the system analyzes audio tracks extracted from videos to classify and interpret various emotional states. The CNN model is trained to recognize distinct audio features associated with different emotions, enabling accurate detection of emotions such as happiness, sadness, anger, and surprise
 
 ## 🎥 Watch Video
-[![Watch the video](images/emotion_play.png)](https://drive.google.com/drive/u/0/folders/1RM5AV4OvoYzStK8QC5svQgR9nc6KWhwD)
+[![Watch the video](images/emotion_1_play.png)](https://drive.google.com/drive/u/0/folders/1RM5AV4OvoYzStK8QC5svQgR9nc6KWhwD)
 
 ## ✨ Features
 
