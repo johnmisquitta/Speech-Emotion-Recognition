@@ -2,14 +2,14 @@
 
 ## 🎙️ About the Project
 **Speech Emotion Recognition** 
-Our project involves developing a system that processes video inputs to detect emotions based on audio content. By utilizing Convolutional Neural Networks (CNNs), the system analyzes audio tracks extracted from videos to classify and interpret various emotional states. The CNN model is trained to recognize distinct audio features associated with different emotions, enabling accurate detection of emotions such as happiness, sadness, anger, and surprise
+This project involves developing a system that processes video inputs to detect emotions based on audio content. By utilizing Convolutional Neural Networks (CNNs), the system analyzes audio tracks extracted from videos to classify and interpret various emotional states. The CNN model is trained to recognize distinct audio features associated with different emotions, enabling accurate detection of emotions such as happiness, sad, anger, fear,  surprise and nutral
 
 ## 🎥 Watch Video
 [![Watch the video](images/emotion_1_play.png)](https://drive.google.com/file/d/1jlgvv4vs7lF1YOLK26_vvy15Zr51M_y1/view?usp=drive_link)
 
 ## ✨ Features
 
-- **Emotion Detection:** predicts emotions like happiness, sadness, anger, sad , disgst ,fear and nutral.
+- **Emotion Detection:** predicts emotions like happiness, sadness, anger, sad , disgust ,fear and nutral.
 - **Real-time Analysis:** Processes live audio for immediate emotion recognition.
 
 ## 🛠️ Installation
@@ -54,7 +54,7 @@ Once the system is running, you can interact with it through the web interface o
 ### Real-time Emotion Detection
 
 - **Upload an Audio Clip:**
-  - Endpoint: `POST /localhost/upload`
+  - Endpoint: `POST /localhost:8000/upload`
   - Description: Upload an audio file to be analyzed for emotion detection.
   ![Upload Image](images/emotion_1.png)
 
